@@ -1,0 +1,48 @@
+font-size = 16
+theme = "/Users/bryanlin/color-scheme/TokyoNight"
+background-opacity = 0.9
+background-blur = true
+
+window-padding-balance = true
+window-padding-x = 5
+window-padding-y = 5
+
+quit-after-last-window-closed = true
+mouse-hide-while-typing = true
+
+keybind = alt+arrow_left=unbind
+keybind = alt+arrow_right=unbind
+
+font-feature = -calt
+font-feature = -liga
+font-feature = -dlig
+
+cursor-style = block
+shell-integration-features = no-cursor
+# Remap Cmd+letter to Ctrl+letter (keep Cmd+C/V native)
+keybind = cmd+a=text:\x01
+keybind = cmd+b=text:\x02
+# cmd+c kept native (copy)
+keybind = cmd+d=text:\x04
+keybind = cmd+e=text:\x05
+keybind = cmd+f=text:\x06
+keybind = cmd+g=text:\x07
+keybind = cmd+h=text:\x08
+keybind = cmd+i=text:\x09
+keybind = cmd+j=text:\x0A
+keybind = cmd+k=text:\x0B
+keybind = cmd+l=text:\x0C
+keybind = cmd+m=text:\x0D
+keybind = cmd+n=text:\x0E
+keybind = cmd+o=text:\x0F
+keybind = cmd+p=text:\x10
+keybind = cmd+q=text:\x11
+keybind = cmd+r=text:\x12
+keybind = cmd+s=text:\x13
+# cmd+t kept native (new tab)
+keybind = cmd+u=text:\x15
+# cmd+v kept native (paste)
+keybind = cmd+w=text:\x17
+keybind = cmd+x=text:\x18
+keybind = cmd+y=text:\x19
+keybind = cmd+z=text:\x1A
