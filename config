@@ -23,6 +23,7 @@ shell-integration-features = no-cursor
 keybind = cmd+a=text:\x01
 keybind = cmd+b=text:\x02
 # cmd+c kept native (copy)
+keybind = cmd+c=text:\x03
 keybind = cmd+d=text:\x04
 keybind = cmd+e=text:\x05
 keybind = cmd+f=text:\x06
