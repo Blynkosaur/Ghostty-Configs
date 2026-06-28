@@ -18,3 +18,14 @@ git clone https://github.com/Blynkosaur/Ghostty-Configs.git ~/.config/ghostty
 ```
 
 If that directory already exists, copy `config` into it instead. Restart Ghostty (or reload config) to apply changes.
+
+## Note on `p10k.zsh`
+
+This repo also includes my [Powerlevel10k](https://github.com/romkavt/powerlevel10k) prompt config (`p10k.zsh`). It doesn't really belong with the Ghostty config, but I didn't want to make a separate repo just for it, so it lives here for now.
+
+It won't load from this directory — zsh expects it at the home level. Move it there to use it:
+
+```bash
+cp p10k.zsh ~/.p10k.zsh
+```
+
