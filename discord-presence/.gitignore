@@ -1,0 +1,7 @@
+# Python bytecode cache
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Local config (contains your Discord client ID; keep it out of git)
+config.py
